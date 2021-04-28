@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'LogoFacial'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6e3b38a1cfef41cf8010b2225268ae04 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d6c546436b44ac4a16a7351e558db6e }}
         package: '.\app.zip'
