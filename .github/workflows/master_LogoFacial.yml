@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.4'
+        python-version: '3.6'
 
     - name: Install Python dependencies
       run: |
@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'LogoFacial'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d6c546436b44ac4a16a7351e558db6e }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bb1b24db7de34c06a35b2a89f1f3defd }}
         package: '.\app.zip'
